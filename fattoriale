@@ -1,0 +1,10 @@
+numero = int(input("inserisci un numero: "))
+def fattoriale(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * fattoriale(n-1)
+  #calcolo il fattoriale  
+risultato = fattoriale(numero)
+#stampo
+print(f"il fattoriale di {numero} è: {risultato}")

@@ -1,0 +1,5 @@
+dizionario = {"a": 1, "b": 2, "c": 3}
+#creo un nuovo dizionario con chiave e valore scambiati
+dizionario_invertito = {valore: chiave for chiave, valore in dizionario.items()}
+
+print("dizionario invertito: ", dizionario_invertito)
